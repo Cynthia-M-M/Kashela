@@ -1,4 +1,3 @@
-Markdown
 
 # 💻 Kashela Frontend
 
