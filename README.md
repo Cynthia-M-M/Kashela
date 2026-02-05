@@ -6,7 +6,6 @@
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-
 ## 📋 Project Overview
 
 The client-side interface for **Kashela**, an AI-powered financial assistant for African traders. This Single Page Application (SPA) provides an intuitive dashboard for tracking finances, recording transactions via voice, and scanning receipts.
@@ -42,38 +41,56 @@ Built with **React**, **Vite**, and **Tailwind CSS** for high performance and re
 ### 1. Navigate to Frontend Directory
 ```bash
 cd Kashela/frontend
-2. Install Dependencies
-Bash
 
+```
+
+### 2. Install Dependencies
+
+```bash
 npm install
-3. Environment Setup
-Create a .env file in the frontend root (if required for API URLs):
 
-Code snippet
+```
 
+### 3. Environment Setup
+
+Create a `.env` file in the frontend root:
+
+```env
 VITE_API_URL=http://localhost:8000
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_key
-🏃‍♂️ Running the Application
-Development Mode
+
+```
+
+---
+
+## 🏃‍♂️ Running the Application
+
+### Development Mode
+
 Start the local development server:
 
-Bash
-
+```bash
 npm run dev
-# OR depending on your package.json script:
-npm start
-The app will run at http://localhost:5173 (default Vite port).
 
-Production Build
+```
+
+> The app will run at `http://localhost:5173` (default Vite port).
+
+### Production Build
+
 To create an optimized production build:
 
-Bash
-
+```bash
 npm run build
-📂 Project Structure
-Plaintext
 
+```
+
+---
+
+## 📂 Project Structure
+
+```text
 frontend/
 │
 ├── public/             # Static assets (icons, manifest)
@@ -87,3 +104,15 @@ frontend/
 ├── tailwind.config.js  # Tailwind configuration
 ├── vite.config.js      # Vite configuration
 └── package.json        # Dependencies and scripts
+
+```
+
+---
+
+## 📄 License
+
+This project is part of the **Kashela** ecosystem.
+
+```
+
+```
