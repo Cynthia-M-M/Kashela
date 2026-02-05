@@ -1,10 +1,11 @@
 
 # 💻 Kashela Frontend
 
+[![Netlify](https://img.shields.io/badge/Netlify-Live_App-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://kashela.netlify.app)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
 
 ## 📋 Project Overview
 
